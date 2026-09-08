@@ -1,0 +1,21 @@
+{
+  "name": "pawlook",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "python3 -m http.server 4173 --directory dist"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-icons": "^5.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.7",
+    "typescript": "^5.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0"
+  }
+}
